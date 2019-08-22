@@ -8,6 +8,8 @@ public class Gitgrouptask {
         PalindromeChecker checker = new PalindromeChecker();
         UserInput userInput = new UserInput();
         System.out.println(checker.checker(userInput.getUserInputWelcome()));
+        System.out.println("ASD");
+        //ASDASD
     }
 
 }
