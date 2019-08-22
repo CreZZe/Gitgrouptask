@@ -8,7 +8,7 @@ public class Gitgrouptask {
         PalindromeChecker checker = new PalindromeChecker();
         UserInput userInput = new UserInput();
         User user = userInput.getUserName();
-        checker.checker(userInput.getUserInputWelcome(), user);
+        checker.checker(userInput.getUserInputWelcome(user), user);
     }
 
 }
