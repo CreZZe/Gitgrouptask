@@ -6,8 +6,8 @@ public class UserInput {
 
     Scanner scan = new Scanner(System.in);
 
-    public String getUserInputWelcome(User user){
-        System.out.println("Välkommen till palindromspelet " + user.getUsername() + ". Skriv in ett ord för att kolla om det är ett palindrom");
+    public String getUserInputWelcome(){
+        System.out.println("Skriv in ett ord för att kolla om det är ett palindrom.");
         return scan.nextLine();
     }
 
@@ -16,5 +16,9 @@ public class UserInput {
         return new User(scan.nextLine());
     }
 
+    public String getInput() {
+        System.out.println("Vill du testa en gång till? \"Quit\" för att avsluta.");
+        return scan.nextLine();
+    }
 
 }
