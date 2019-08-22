@@ -11,5 +11,10 @@ public class UserInput {
         return scan.nextLine();
     }
 
+    public User getUserName(){
+        System.out.println("Hej kompis, skriv in ditt namn: ");
+        return new User(scan.nextLine());
+    }
+
 
 }
