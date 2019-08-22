@@ -13,7 +13,7 @@ public class PalindromeChecker {
             System.out.println("Detta ord är ett palindrom! Bra jobbat " + user.getUsername());
         }
         else{
-            System.out.println("Tyvärr " + user.getUsername() + ". Du hade feeel!!");
+            System.out.println("Tyvärr " + user.getUsername() + ". Ditt ord var inte ett palindromeeee");
         }
     }
 }
