@@ -7,6 +7,8 @@ public class Gitgrouptask {
 
         System.out.println("hej");
         
+        PalindromeChecker checker = new PalindromeChecker();
+        System.out.println(checker.checker("aNna"));
     }
 
 }
